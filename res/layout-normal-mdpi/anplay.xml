@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anagr"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/h3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="265dp"
+        android:layout_y="16dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="16dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="205dp"
+        android:layout_y="16dp"
+        android:background="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/letter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_x="180dp"
+        android:layout_y="104dp"
+        android:text="3" />
+
+    <TextView
+        android:id="@+id/letter4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="38dp"
+        android:layout_x="126dp"
+        android:layout_y="142dp"
+        android:text="4" />
+
+    <TextView
+        android:id="@+id/letter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="87dp"
+        android:layout_x="99dp"
+        android:layout_y="82dp"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/letter7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="60dp"
+        android:text="7" />
+
+    <TextView
+        android:id="@+id/letter5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="223dp"
+        android:layout_y="76dp"
+        android:text="5" />
+
+    <TextView
+        android:id="@+id/letter6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="202dp"
+        android:layout_y="153dp"
+        android:text="6" />
+
+    <TextView
+        android:id="@+id/letter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="71dp"
+        android:layout_x="251dp"
+        android:layout_y="123dp"
+        android:text="2" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="98dp"
+        android:layout_x="104dp"
+        android:layout_y="285dp"
+        android:ems="10"
+        android:imeOptions="actionDone" />
+
+    <TextView
+        android:id="@+id/sms"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="70dp"
+        android:layout_y="233dp"
+        android:text="-" 
+        android:textSize="17dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_x="239dp"
+        android:layout_y="200dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_x="140dp"
+        android:layout_y="332dp"
+        android:background="@layout/butok" />
+
+</AbsoluteLayout>

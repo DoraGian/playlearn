@@ -1,0 +1,20 @@
+<resources>
+    
+    <string name="app_name">Play&amp;Learn</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Learn&amp;Play</string>
+    <string name="dora">by Dora Giannouli</string>
+    <string name="prakseis">Πράξεις</string>
+    <string name="tips">Σοφά λόγια</string>
+    <string name="scor">  Scor  </string>
+    <string name="kremala">Κρεμάλα</string>
+    <string name="anagram">Αναγραμματισμός</string>
+    <string name="quiz">Κουίζ</string>
+    <string name="games">Παιχνίδια</string>
+    <string name="beauty">Do you know how beautiful you are???</string>
+    <string name="rito"> \n "Δε μπορείς να ανακαλύψεις νέους ωκεανούς \n αν δεν έχεις το κουράγιο να χάσεις την ακτή \n από τα μάτια σου. " </string>
+    <string name="platon">Πλάτωνας</string>
+    <string name="learnplay">Learn &amp; Play</string>
+	
+</resources>

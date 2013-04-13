@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget35"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/board" >
+
+    <Button
+        android:id="@+id/h2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="340dp"
+        android:layout_y="50dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="376dp"
+        android:layout_y="50dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="301dp"
+        android:layout_y="50dp"
+        android:background="@drawable/heart" />
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_x="285dp"
+        android:layout_y="205dp"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:textSize="27dp" />
+
+    <TextView
+        android:id="@+id/equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="233dp"
+        android:layout_y="210dp"
+        android:text="="
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="108dp"
+        android:layout_y="210dp"
+        android:text="+"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="213dp"
+        android:text="-"
+        android:textColor="#ffffff"
+        android:textSize="27dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="173dp"
+        android:layout_y="210dp"
+        android:text="-"
+        android:textColor="#ffffff"
+        android:textSize="27dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="311dp"
+        android:gravity="center"
+        android:text="Πληκτρολόγησε το αποτέλεσμα"
+        android:textColor="#ffffff"
+        android:textSize="27dp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/ok"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="105dp"
+        android:layout_height="71dp"
+        android:layout_x="189dp"
+        android:layout_y="506dp"
+        android:background="@layout/butprplay" />
+
+</AbsoluteLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bookshelf"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/butgram"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_x="181dp"
+        android:layout_y="28dp"
+        android:background="@layout/butgram" />
+
+    <Button
+        android:id="@+id/butvocb"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_x="186dp"
+        android:layout_y="198dp"
+        android:background="@layout/butvoc" />
+
+    <Button
+        android:id="@+id/butsleeping"
+        android:layout_width="144dp"
+        android:layout_height="173dp"
+        android:layout_x="313dp"
+        android:layout_y="530dp"
+        android:background="@layout/butsleeping" />
+
+    <Button
+        android:id="@+id/butred"
+        android:layout_width="131dp"
+        android:layout_height="171dp"
+        android:layout_x="176dp"
+        android:layout_y="532dp"
+        android:background="@layout/butred" />
+
+    <Button
+        android:id="@+id/butrapunzel"
+        android:layout_width="143dp"
+        android:layout_height="166dp"
+        android:layout_x="32dp"
+        android:layout_y="532dp"
+        android:background="@layout/butrapunzel" />
+
+    <Button
+        android:id="@+id/butbeast"
+        android:layout_width="145dp"
+        android:layout_height="167dp"
+        android:layout_x="97dp"
+        android:layout_y="360dp"
+        android:background="@layout/butbeast" />
+
+    <Button
+        android:id="@+id/butcinderela"
+        android:layout_width="126dp"
+        android:layout_height="170dp"
+        android:layout_x="258dp"
+        android:layout_y="359dp"
+        android:background="@layout/butcinderela" />
+
+</AbsoluteLayout>

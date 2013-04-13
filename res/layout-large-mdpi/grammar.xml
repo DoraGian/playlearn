@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/chapter1"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:layout_x="170dp"
+        android:layout_y="190dp"
+        android:background="@layout/chapter1" />
+
+    <Button
+        android:id="@+id/chapter3"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:layout_x="170dp"
+        android:layout_y="340dp"
+        android:background="@layout/chapter3" />
+
+    <Button
+        android:id="@+id/chapter2"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:layout_x="170dp"
+        android:layout_y="260dp"
+        android:background="@layout/chapter2" />
+
+    <Button
+        android:id="@+id/chapter4"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:layout_x="170dp"
+        android:layout_y="410dp"
+        android:background="@layout/chapter4" />
+
+</AbsoluteLayout>

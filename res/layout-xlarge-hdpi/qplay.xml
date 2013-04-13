@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/board"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="548dp"
+        android:layout_height="181dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="75dp"
+        android:layout_x="122dp"
+        android:layout_y="126dp"
+        android:gravity="center"
+        android:text="Mary always ____ (wake up) early in the morning."
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="201dp"
+        android:layout_height="221dp"
+        android:layout_x="268dp"
+        android:layout_y="482dp" >
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="157dp"
+            android:layout_y="362dp"
+            android:text="answer1" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer2" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer3" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="295dp"
+            android:layout_y="362dp"
+            android:text="answer4" />
+    </RadioGroup>
+
+        <Button
+            android:id="@+id/check"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="62dp"
+            android:layout_height="59dp"
+            android:layout_x="542dp"
+            android:layout_y="550dp"
+            android:background="@layout/butnext" />
+
+        <Button
+            android:id="@+id/see"
+            android:layout_width="168dp"
+            android:layout_height="132dp"
+            android:layout_x="310dp"
+            android:layout_y="339dp"
+            android:background="@layout/butlathi" />
+    
+</AbsoluteLayout>

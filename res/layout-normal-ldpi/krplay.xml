@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xarti"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_x="128dp"
+        android:layout_y="362dp"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:textSize="23dp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="205dp"
+        android:layout_y="356dp"
+        android:background="@layout/butpen" />
+
+    <TextView
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="230dp"
+        android:background="@drawable/paula"
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/letter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="233dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/letter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="233dp"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/letter4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="233dp"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/letter5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="240dp"
+        android:layout_y="233dp"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/letter6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="280dp"
+        android:layout_y="233dp"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="230dp"
+        android:background="@drawable/paula"
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/line3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="230dp"
+        android:background="@drawable/paula"
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/line4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="186dp"
+        android:layout_y="230dp"
+        android:background="@drawable/paula"
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/line5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="226dp"
+        android:layout_y="230dp"
+        android:background="@drawable/paula"
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/line6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="266dp"
+        android:layout_y="230dp"
+        android:background="@drawable/paula"
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/letter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="233dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="23dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="73dp"
+        android:text="TextView"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/body"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="89dp"
+        android:background="@drawable/body" />
+
+    <Button
+        android:id="@+id/lhand"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="89dp"
+        android:background="@drawable/lhand" />
+
+    <Button
+        android:id="@+id/rhand"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="89dp"
+        android:background="@drawable/rhand" />
+
+    <Button
+        android:id="@+id/lleg"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="89dp"
+        android:background="@drawable/lleg" />
+
+    <Button
+        android:id="@+id/rleg"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="89dp"
+        android:background="@drawable/rleg" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="284dp"
+        android:gravity="center"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/head"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="86dp"
+        android:layout_height="84dp"
+        android:layout_x="92dp"
+        android:layout_y="80dp"
+        android:background="@drawable/head" />
+
+</AbsoluteLayout>

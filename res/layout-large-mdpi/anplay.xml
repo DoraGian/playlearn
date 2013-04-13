@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anagr"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="98dp"
+        android:layout_x="196dp"
+        android:layout_y="496dp"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:textSize="20dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/letter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_x="261dp"
+        android:layout_y="146dp"
+        android:text="3" />
+
+    <TextView
+        android:id="@+id/letter7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="241dp"
+        android:layout_y="102dp"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/h2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="351dp"
+        android:layout_y="6dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="321dp"
+        android:layout_y="6dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="381dp"
+        android:layout_y="6dp"
+        android:background="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/letter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="71dp"
+        android:layout_x="346dp"
+        android:layout_y="170dp"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/letter6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="289dp"
+        android:layout_y="204dp"
+        android:text="6" />
+
+    <TextView
+        android:id="@+id/letter4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="38dp"
+        android:layout_x="199dp"
+        android:layout_y="197dp"
+        android:text="4" />
+
+    <TextView
+        android:id="@+id/letter5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="320dp"
+        android:layout_y="99dp"
+        android:text="5" />
+
+    <TextView
+        android:id="@+id/letter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="87dp"
+        android:layout_x="161dp"
+        android:layout_y="129dp"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_x="347dp"
+        android:layout_y="315dp"
+        android:text="TextView"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/sms"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="373dp"
+        android:text="-"
+        android:textSize="20dp" 
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_x="232dp"
+        android:layout_y="544dp"
+        android:background="@layout/butok" />
+
+</AbsoluteLayout>

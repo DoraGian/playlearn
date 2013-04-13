@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bookshelf">
+
+    <Button
+        android:id="@+id/butrapunzel"
+        android:layout_width="240dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="63dp"
+        android:background="@layout/butrapunzel" />
+
+    <Button
+        android:id="@+id/butred"
+        android:layout_width="240dp"
+        android:layout_height="250dp"
+        android:layout_alignTop="@+id/butrapunzel"
+        android:layout_centerHorizontal="true"
+        android:background="@layout/butred" />
+
+    <Button
+        android:id="@+id/butsleeping"
+        android:layout_width="240dp"
+        android:layout_height="250dp"
+        android:layout_alignBaseline="@+id/butred"
+        android:layout_alignBottom="@+id/butred"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:background="@layout/butsleeping" />
+
+    <Button
+        android:id="@+id/butvocb"
+        android:layout_width="180dp"
+        android:layout_height="240dp"
+        android:layout_above="@+id/butgram"
+        android:layout_alignLeft="@+id/butgram"
+        android:layout_marginBottom="32dp"
+        android:background="@layout/butvoc" />
+
+    <Button
+        android:id="@+id/butcinderela"
+        android:layout_width="220dp"
+        android:layout_height="260dp"
+        android:layout_above="@+id/butred"
+        android:layout_alignRight="@+id/butsleeping"
+        android:layout_marginBottom="47dp"
+        android:layout_marginRight="86dp"
+        android:background="@layout/butcinderela" />
+
+    <Button
+        android:id="@+id/butbeast"
+        android:layout_width="240dp"
+        android:layout_height="250dp"
+        android:layout_alignTop="@+id/butcinderela"
+        android:layout_marginRight="49dp"
+        android:layout_toLeftOf="@+id/butcinderela"
+        android:background="@layout/butbeast" />
+
+    <Button
+        android:id="@+id/butgram"
+        android:layout_width="180dp"
+        android:layout_height="240dp"
+        android:layout_above="@+id/butcinderela"
+        android:layout_centerHorizontal="true"
+        android:background="@layout/butgram" />
+    
+</RelativeLayout>

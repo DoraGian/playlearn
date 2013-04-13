@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prakseis" >
+
+    <Button
+        android:id="@+id/prodigies"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/prplay"
+        android:layout_centerHorizontal="true"
+        android:background="@layout/butodigies" />
+
+    <Button
+        android:id="@+id/prscor"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/prodigies"
+        android:layout_centerHorizontal="true"
+        android:background="@layout/butscor" />
+
+    <Button
+        android:id="@+id/prplay"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/prodigies"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:background="@layout/butplay" />
+
+</RelativeLayout>

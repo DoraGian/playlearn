@@ -1,0 +1,426 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dora.dora"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".myMenu"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.CLEARSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".games"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.GAMES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+
+            
+           
+     <activity
+            android:name=".books"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.BOOKS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>         
+            
+             
+            
+         
+        <activity
+            android:name=".prakseis"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.PRAKSEIS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+            
+        
+     <activity
+            android:name=".anagram"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.ANAGRAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+        
+     
+      <activity
+            android:name=".kremala"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.KREMALA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+     
+     
+        
+     <activity
+            android:name=".quiz"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.QUIZ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+        
+            
+     <activity
+            android:name=".kremodigies"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.KREMODIGIES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+     
+          <activity
+            android:name=".prodigies"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.PRODIGIES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+     
+        <activity
+            android:name=".anodigies"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.ANODIGIES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+          
+        <activity
+            android:name=".qodigies"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.QODIGIES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+        
+
+        
+          
+  <activity
+            android:name=".krscor"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.KRSCOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>           
+          
+          
+          <activity
+            android:name=".qscor"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.QSCOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+          
+   <activity
+            android:name=".anscor"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.ANSCOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>          
+          
+          
+          
+      <activity
+            android:name=".prscor"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.PRSCOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>       
+          
+     
+          
+          <activity
+            android:name=".prplay"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.PRPLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          
+        <activity
+            android:name=".krplay"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.KRPLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+              
+        <activity
+            android:name=".anplay"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.ANPLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+              
+        <activity
+            android:name=".grammar"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.GRAMMAR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+              
+                
+        <activity
+            android:name=".vocabulary"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.VOCABULARY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+         <activity
+            android:name=".gch1"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.GCH1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+               
+         <activity
+            android:name=".gch2"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.GCH2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+         <activity
+            android:name=".gch3"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.GCH3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+              
+                 
+         <activity
+            android:name=".gch4"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.GCH4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+                  
+        <activity
+            android:name=".vch1"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.VCH1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+         <activity
+            android:name=".vch2"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.VCH2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+          
+        <activity
+            android:name=".vch3"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.VCH3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+        <activity
+            android:name=".vch4"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.VCH4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+        
+          <activity
+            android:name=".vch5"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.VCH5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+          
+        <activity
+            android:name=".bbeast"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.BBEAST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+                             
+                              
+           <activity
+            android:name=".bcinderella"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.BCINDERELLA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+           
+		<activity
+            android:name=".brapunzel"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.BRAPUNZEL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+
+		
+		<activity
+            android:name=".bred"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.BRED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+				
+        
+		<activity
+            android:name=".bsleeping"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.BSLEEPING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+		
+		
+		<activity
+            android:name=".qplay"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.QPLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 	
+        
+		
+		<activity
+            android:name=".mistakes"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.dora.dora.MISTAKES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 	
+		
+    </application>
+
+</manifest>

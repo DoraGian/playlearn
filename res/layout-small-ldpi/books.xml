@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bookshelf">
+
+    <Button
+        android:id="@+id/butrapunzel"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_x="44dp"
+        android:layout_y="268dp"
+        android:background="@layout/butrapunzel" />
+
+    <Button
+        android:id="@+id/butred"
+        android:layout_width="58dp"
+        android:layout_height="82dp"
+        android:layout_x="140dp"
+        android:layout_y="269dp"
+        android:background="@layout/butred" />
+
+    <Button
+        android:id="@+id/butcinderela"
+        android:layout_width="80dp"
+        android:layout_height="74dp"
+        android:layout_x="173dp"
+        android:layout_y="186dp"
+        android:background="@layout/butcinderela" />
+
+    <Button
+        android:id="@+id/butbeast"
+        android:layout_width="61dp"
+        android:layout_height="82dp"
+        android:layout_x="85dp"
+        android:layout_y="181dp"
+        android:background="@layout/butbeast" />
+
+    <Button
+        android:id="@+id/butsleeping"
+        android:layout_width="61dp"
+        android:layout_height="74dp"
+        android:layout_x="217dp"
+        android:layout_y="273dp"
+        android:background="@layout/butsleeping" />
+
+    <Button
+        android:id="@+id/butvocb"
+        android:layout_width="70dp"
+        android:layout_height="77dp"
+        android:layout_x="128dp"
+        android:layout_y="98dp"
+        android:background="@layout/butvoc" />
+
+    <Button
+        android:id="@+id/butgram"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_x="126dp"
+        android:layout_y="9dp"
+        android:background="@layout/butgram" />
+    
+</AbsoluteLayout>

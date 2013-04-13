@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anagr"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/h3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="42dp"
+        android:layout_height="34dp"
+        android:layout_x="269dp"
+        android:layout_y="2dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="42dp"
+        android:layout_height="34dp"
+        android:layout_x="238dp"
+        android:layout_y="2dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="42dp"
+        android:layout_height="34dp"
+        android:layout_x="209dp"
+        android:layout_y="2dp"
+        android:background="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/letter7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="166dp"
+        android:layout_y="26dp"
+        android:text="7" />
+
+    <TextView
+        android:id="@+id/letter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_x="177dp"
+        android:layout_y="82dp"
+        android:text="3" />
+
+    <TextView
+        android:id="@+id/letter4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="38dp"
+        android:layout_x="122dp"
+        android:layout_y="120dp"
+        android:text="4" />
+
+    <TextView
+        android:id="@+id/letter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="87dp"
+        android:layout_x="96dp"
+        android:layout_y="60dp"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/letter5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dp"
+        android:layout_y="54dp"
+        android:text="5" />
+
+    <TextView
+        android:id="@+id/letter6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="198dp"
+        android:layout_y="130dp"
+        android:text="6" />
+
+    <TextView
+        android:id="@+id/letter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="71dp"
+        android:layout_x="248dp"
+        android:layout_y="101dp"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_x="240dp"
+        android:layout_y="164dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/sms"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="189dp"
+        android:gravity="center"
+        android:text="-"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="98dp"
+        android:layout_x="109dp"
+        android:layout_y="262dp"
+        android:ems="10"
+        android:gravity="center"
+        android:imeOptions="actionDone" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="61dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="19dp"
+        android:layout_x="134dp"
+        android:layout_y="302dp"
+        android:background="@layout/butok" />
+
+</AbsoluteLayout>

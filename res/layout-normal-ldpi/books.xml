@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bookshelf">
+
+    <Button
+        android:id="@+id/butcinderela"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_x="183dp"
+        android:layout_y="236dp"
+        android:background="@layout/butcinderela" />
+
+    <Button
+        android:id="@+id/butvocb"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:layout_x="122dp"
+        android:layout_y="130dp"
+        android:background="@layout/butvoc" />
+
+    <Button
+        android:id="@+id/butgram"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:layout_x="122dp"
+        android:layout_y="20dp"
+        android:background="@layout/butgram" />
+
+    <Button
+        android:id="@+id/butbeast"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_x="80dp"
+        android:layout_y="236dp"
+        android:background="@layout/butbeast" />
+
+    <Button
+        android:id="@+id/butsleeping"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_x="216dp"
+        android:layout_y="342dp"
+        android:background="@layout/butsleeping" />
+
+    <Button
+        android:id="@+id/butrapunzel"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_x="29dp"
+        android:layout_y="348dp"
+        android:background="@layout/butrapunzel" />
+
+    <Button
+        android:id="@+id/butred"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_x="120dp"
+        android:layout_y="346dp"
+        android:background="@layout/butred" />
+    
+</AbsoluteLayout>

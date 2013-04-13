@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/odigies" >
+    
+    <Button
+   		    android:id="@+id/greek"
+   		    style="?android:attr/buttonStyleSmall"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginLeft="15dp"
+   		    android:layout_x="17dp"
+   		    android:layout_y="10dp"
+   		    android:background="@layout/butgreek" />
+
+  	<Button
+   		    android:id="@+id/english"
+   		    style="?android:attr/buttonStyleSmall"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginLeft="18dp"
+   		    android:layout_x="57dp"
+   		    android:layout_y="10dp"
+   		    android:background="@layout/butenglish" />
+
+    <TextView
+        android:id="@+id/odigies"
+        android:layout_width="258dp"
+        android:layout_height="282dp"
+        android:layout_x="32dp"
+        android:layout_y="73dp"
+        android:gravity="center"
+        android:text="alalalalalal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+   		<Button
+   		    android:id="@+id/butvch5"
+   		    style="?android:attr/buttonStyleSmall"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginLeft="18dp"
+   		    android:layout_x="114dp"
+   		    android:layout_y="357dp"
+   		    android:background="@layout/butvch5" />
+
+</AbsoluteLayout>

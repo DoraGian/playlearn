@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bookshelf">
+
+    <Button
+        android:id="@+id/butvocb"
+        android:layout_width="180dp"
+        android:layout_height="240dp"
+        android:layout_marginBottom="32dp"
+        android:layout_x="314dp"
+        android:layout_y="311dp"
+        android:background="@layout/butvoc" />
+
+    <Button
+        android:id="@+id/butgram"
+        android:layout_width="180dp"
+        android:layout_height="240dp"
+        android:layout_x="314dp"
+        android:layout_y="40dp"
+        android:background="@layout/butgram" />
+
+    <Button
+        android:id="@+id/butbeast"
+        android:layout_width="238dp"
+        android:layout_height="249dp"
+        android:layout_marginRight="24dp"
+        android:layout_x="167dp"
+        android:layout_y="567dp"
+        android:background="@layout/butbeast" />
+
+    <Button
+        android:id="@+id/butcinderela"
+        android:layout_width="220dp"
+        android:layout_height="260dp"
+        android:layout_marginRight="89dp"
+        android:layout_x="443dp"
+        android:layout_y="562dp"
+        android:background="@layout/butcinderela" />
+
+    <Button
+        android:id="@+id/butrapunzel"
+        android:layout_width="234dp"
+        android:layout_height="272dp"
+        android:layout_marginBottom="63dp"
+        android:layout_x="59dp"
+        android:layout_y="833dp"
+        android:background="@layout/butrapunzel" />
+
+    <Button
+        android:id="@+id/butsleeping"
+        android:layout_width="197dp"
+        android:layout_height="257dp"
+        android:layout_marginRight="28dp"
+        android:layout_x="543dp"
+        android:layout_y="838dp"
+        android:background="@layout/butsleeping" />
+
+    <Button
+        android:id="@+id/butred"
+        android:layout_width="250dp"
+        android:layout_height="251dp"
+        android:layout_x="296dp"
+        android:layout_y="848dp"
+        android:background="@layout/butred" />
+    
+</AbsoluteLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anagr"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/letter5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="513dp"
+        android:layout_y="184dp"
+        android:text="5" 
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_x="615dp"
+        android:layout_y="513dp"
+        android:text="TextView"
+         android:textSize="27dp"  />
+
+    <Button
+        android:id="@+id/h3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="693dp"
+        android:layout_y="40dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="663dp"
+        android:layout_y="40dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="633dp"
+        android:layout_y="40dp"
+        android:background="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/letter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="87dp"
+        android:layout_x="286dp"
+        android:layout_y="209dp"
+        android:text="1"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/letter4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="38dp"
+        android:layout_x="325dp"
+        android:layout_y="361dp"
+        android:text="4"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/letter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_x="422dp"
+        android:layout_y="264dp"
+        android:text="3"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/letter7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="417dp"
+        android:layout_y="160dp"
+        android:text="7"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/letter6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="540dp"
+        android:layout_y="309dp"
+        android:text="6"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/letter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="71dp"
+        android:layout_x="605dp"
+        android:layout_y="217dp"
+        android:text="2"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:layout_x="304dp"
+        android:layout_y="752dp"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:textSize="27dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/sms"
+        android:layout_width="424dp"
+        android:layout_height="wrap_content"
+        android:layout_x="203dp"
+        android:layout_y="570dp"
+        android:gravity="center"
+        android:text="-"
+        android:textSize="27dp" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="123dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="19dp"
+        android:layout_x="372dp"
+        android:layout_y="842dp"
+        android:background="@layout/butok" />
+
+</AbsoluteLayout>

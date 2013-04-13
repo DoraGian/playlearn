@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget35"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/board" >
+
+    <Button
+        android:id="@+id/h3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="622dp"
+        android:layout_y="98dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="587dp"
+        android:layout_y="98dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/h1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="547dp"
+        android:layout_y="98dp"
+        android:background="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="503dp"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="555dp"
+        android:text="Πληκτρολόγησε το αποτέλεσμα"
+        android:textColor="#ffffff"
+        android:textSize="27dp"
+        android:typeface="sans" 
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="381dp"
+        android:text="-"
+        android:textColor="#ffffff"
+        android:textSize="27dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="259dp"
+        android:layout_y="380dp"
+        android:text="+"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="338dp"
+        android:layout_y="382dp"
+        android:text="-"
+        android:textColor="#ffffff"
+        android:textSize="27dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="419dp"
+        android:layout_y="388dp"
+        android:text="="
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_x="499dp"
+        android:layout_y="375dp"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:textSize="27dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/ok"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="126dp"
+        android:layout_height="106dp"
+        android:layout_x="342dp"
+        android:layout_y="743dp"
+        android:background="@layout/butprplay" />
+
+</AbsoluteLayout>

@@ -1,0 +1,42 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scor" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="62dp"
+        android:layout_height="57dp"
+        android:layout_x="228dp"
+        android:layout_y="252dp"
+        android:background="@layout/butreset" />
+
+    <TextView
+        android:id="@+id/showplays"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="65dp"
+        android:text="TextView"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/showloses"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="165dp"
+        android:text="TextView"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/showwins"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="114dp"
+        android:text="TextView"
+        android:textSize="28dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backv"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/chapter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="89dp"
+        android:background="@layout/chapter1" />
+
+    <Button
+        android:id="@+id/chapter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="189dp"
+        android:background="@layout/chapter3" />
+
+    <Button
+        android:id="@+id/chapter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="139dp"
+        android:background="@layout/chapter2" />
+
+    <Button
+        android:id="@+id/chapter4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="239dp"
+        android:background="@layout/chapter4" />
+
+    <Button
+        android:id="@+id/chapter5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="289dp"
+        android:background="@layout/chapter5" />
+
+</AbsoluteLayout>

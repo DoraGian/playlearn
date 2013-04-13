@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kremala" >
+
+    <Button
+        android:id="@+id/kremodigies"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/krscor"
+        android:layout_below="@+id/krscor"
+        android:layout_marginTop="94dp"
+        android:background="@layout/butodigies" />
+
+    <Button
+        android:id="@+id/krscor"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@layout/butscor" />
+
+    <Button
+        android:id="@+id/krplay"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/krscor"
+        android:layout_alignLeft="@+id/krscor"
+        android:layout_marginBottom="79dp"
+        android:background="@layout/butplay" />
+
+</RelativeLayout>

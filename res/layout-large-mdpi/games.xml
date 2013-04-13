@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/games"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/prakseis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quiz"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="185dp"
+        android:background="@layout/butpraks" />
+
+    <Button
+        android:id="@+id/kremala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quiz"
+        android:layout_centerVertical="true"
+        android:background="@layout/butkrem" />
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/kremala"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@layout/butquiz" />
+
+    <Button
+        android:id="@+id/anagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kremala"
+        android:layout_below="@+id/kremala"
+        android:layout_marginTop="50dp"
+        android:background="@layout/butanag" />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anagram" >
+
+    <Button
+        android:id="@+id/anodigies"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/anscor"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="382dp"
+        android:background="@layout/butodigies" />
+
+    <Button
+        android:id="@+id/anplay"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/anscor"
+        android:layout_alignLeft="@+id/anscor"
+        android:layout_marginBottom="72dp"
+        android:background="@layout/butplay" />
+
+    <Button
+        android:id="@+id/anscor"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/anodigies"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="92dp"
+        android:background="@layout/butscor" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz" >
+
+        <Button
+        android:id="@+id/qscor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@layout/butscor" />
+
+    <Button
+        android:id="@+id/qodigies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/qscor"
+        android:layout_below="@+id/qscor"
+        android:layout_marginTop="29dp"
+        android:background="@layout/butodigies" />
+
+    <Button
+        android:id="@+id/qplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/qscor"
+        android:layout_alignLeft="@+id/qscor"
+        android:layout_marginBottom="24dp"
+        android:background="@layout/butplay" />
+
+</RelativeLayout>
